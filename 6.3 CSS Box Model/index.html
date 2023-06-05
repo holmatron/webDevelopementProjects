@@ -1,19 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>CSS Box Model</title>
+    <style>
+      /* Write your CSS code here */
+      div {
+        height: 200px;
+        width: 200px;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Box Model</title>
-  <style>
-    /* Write your CSS code here */
+      p {
+        margin: 0;
+      }
 
-  </style>
-</head>
+      #first {
+        background-color: azure;
+        padding: 20px;
+        border: 10px solid black;
+      }
 
-<body>
+      #second {
+        background-color: aliceblue;
+        border: solid black;
+        border-width: 20px 10px;
+        margin-left: 260px;
+      }
 
+      #third {
+        background-color: rgba(19, 114, 135, 0.474);
+        border: 10px solid black;
+        margin-left: 40px;
+      }
+    </style>
+  </head>
 
-  <!-- TODOs:
+  <body>
+    <div id="first">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
+        sapien porttitor urna elementum lacinia. In id magna pulvinar, ultricies
+        lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque
+        magna. Phasellus dolor metus, laoreet ac convallis sit amet, efficitur
+        sed dolor.
+      </p>
+    </div>
+
+    <div id="second"></div>
+
+    <div id="third"></div>
+
+    <!-- TODOs:
 1. Create 3 Boxes using the div element.
 2. Set their sizes to 200px heigh by 200px wide.
 3. Set different background colors for each of the boxes (I used cadetblue, gold and indianred).
@@ -28,7 +72,5 @@ Hint: Use the CSS inspector in Chrome.
 8. Set the 3rd div to have a 10px border 
 9. Set the margins for the divs so that each box corner touches the other. (See the goal image)
 -->
-
-</body>
-
+  </body>
 </html>
