@@ -1,0 +1,28 @@
+/* Write your code here: */
+
+h1,
+h2 {
+  color: blueviolet;
+}
+
+/*Parent-child: selector >FIRST child*/
+.box > p {
+  color: firebrick;
+}
+
+/*Descendant: Childs children selector selector*/
+.box li {
+  color: blue;
+}
+
+/*Chaining: Apply where all selectors are true, selectorselector{}*/
+
+li.done {
+  color: seagreen;
+}
+
+/*Combining combinders selector selectorselector{}*/
+
+ul p.done {
+  font-size: 0.5rem;
+}
